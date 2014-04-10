@@ -22,7 +22,7 @@ doc.css('.relevancy-list .text').each do |entry|
 end
 
 doc.css('.heading-row h2').each do |entry|
-  puts "\n#{entry.content.strip.tr("\n", "").squeeze(" ")}?"
+  puts "\n#{entry.content.strip.tr("\n", "").squeeze(" ")}? or:" if entry.content.include? "Did you mean"
 end
 
 if entries.length < 1
