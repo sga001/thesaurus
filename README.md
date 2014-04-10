@@ -1,8 +1,8 @@
 THES
 ====
 
-**Thes** is a command line utility that provides thesaurus functionality by quering
-thesaurus.com and tabulating the output.
+**Thes** is a ruby script that provides thesaurus functionality
+by quering thesaurus.com and tabulating the output.
 
 Requirements
 ------------
@@ -21,7 +21,7 @@ Usage
 -------
 
 	$ ruby thes.rb <search query>
-
+	
 
 License
 -------
