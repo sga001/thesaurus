@@ -1,16 +1,29 @@
-Thes is a command line utility that provides thesaurus functionality by quering
+THES
+====
+
+**Thes** is a command line utility that provides thesaurus functionality by quering
 thesaurus.com and tabulating the output.
 
-== Requirements
+Requirements
+------------
 
-[Nokogiri](https://github.com/sparklemotion/nokogiri)
+- Ruby 1.9.3 or higher
 
-[Terminal-table](https://github.com/visionmedia/terminal-table)
+- [Nokogiri](https://github.com/sparklemotion/nokogiri) 
+ 
+		$ gem install nokogiri
 
-== Usage
+- [Terminal-table](https://github.com/visionmedia/terminal-table)
 
-  $ ruby thes.rb < search query >
+		$ gem install terminal-table
 
-== License
+Usage
+-------
+
+	$ ruby thes.rb <search query>
+
+
+License
+-------
 
 WTFPL. 
