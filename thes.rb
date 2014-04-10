@@ -21,6 +21,10 @@ doc.css('.relevancy-list .text').each do |entry|
   max_entry = [max_entry, entry.content.length].max
 end
 
+doc.css('.heading-row h2').each do |entry|
+  puts "\n#{entry.content.strip.tr("\n", "").squeeze(" ")}?"
+end
+
 if entries.length < 1
   puts "No synonyms found."
   exit
